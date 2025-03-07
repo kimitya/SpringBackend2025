@@ -1,4 +1,4 @@
-package kz.kbtu.kafka_test;
+package kz.kbtu.kafka_task;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

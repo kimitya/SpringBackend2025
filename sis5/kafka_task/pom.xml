@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>kz.kbtu</groupId>
-    <artifactId>kafka_test</artifactId>
+    <artifactId>kafka_task</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>kafka_test</name>
     <description>kafka_test</description>

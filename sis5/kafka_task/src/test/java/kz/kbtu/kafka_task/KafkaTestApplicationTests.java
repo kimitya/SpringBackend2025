@@ -1,4 +1,4 @@
-package kz.kbtu.kafka_test;
+package kz.kbtu.kafka_task;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

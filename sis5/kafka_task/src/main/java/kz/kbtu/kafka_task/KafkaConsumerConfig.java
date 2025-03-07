@@ -1,4 +1,4 @@
-package kz.kbtu.kafka_test;
+package kz.kbtu.kafka_task;
 
 import java.util.HashMap;
 import java.util.Map;

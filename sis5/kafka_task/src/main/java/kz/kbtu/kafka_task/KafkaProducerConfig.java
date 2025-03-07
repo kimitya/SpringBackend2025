@@ -1,4 +1,4 @@
-package kz.kbtu.kafka_test;
+package kz.kbtu.kafka_task;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -54,7 +54,7 @@ public class KafkaProducerConfig {
         configProps.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapAddress);
         configProps.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
         configProps.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, JsonSerializer.class);
-        configProps.put(JsonSerializer.TYPE_MAPPINGS, "greeting:kz.kbtu.kafka_test.Greeting, farewell:kz.kbtu.kafka_test.Farewell");
+        configProps.put(JsonSerializer.TYPE_MAPPINGS, "greeting:kz.kbtu.kafka_task.Greeting, farewell:kz.kbtu.kafka_task.Farewell");
         return new DefaultKafkaProducerFactory<>(configProps);
     }
 

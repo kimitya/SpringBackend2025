@@ -1,4 +1,4 @@
-package kz.kbtu.kafka_test;
+package kz.kbtu.kafka_task;
 
 import org.springframework.kafka.annotation.KafkaHandler;
 import org.springframework.kafka.annotation.KafkaListener;
